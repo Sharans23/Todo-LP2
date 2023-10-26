@@ -1,0 +1,132 @@
+body{
+    background-color: #1f1e1e;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    color: rgb(207, 110, 30);
+}
+
+.todo-wrapper{
+    background-color:#353434;
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgb(25, 25, 25);
+}    
+.todo-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(78,78,78);
+}
+.input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.input-item label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input-item input{
+    padding: 10px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.input-item input:focus{
+    outline: 2px solid rgb(207, 110, 30);
+}
+
+.Add-btn{
+    background-color: rgb(207, 110, 30);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 25px;
+    width: 60px;
+}
+
+.Add-btn:hover{
+    background-color: black;
+    color:antiquewhite
+}
+
+.secondaryBtn{
+        background-color: rgb(22, 21, 21);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+            margin-top: 25px;
+            width: fit-content;
+} 
+.secondaryBtn:hover{
+    background-color: rgb(88, 87, 87);
+}
+.active{
+    background-color: rgb(207, 110, 30);
+}
+.active:hover{
+    background-color: rgb(190, 85, 0);
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list-item{
+    background-color: #1f1e1e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 5px rgb(46, 45, 45);
+}
+.btns{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-item h3{
+    font-size: 25px;
+    color:cyan;
+    font-weight: bold;
+    margin: 0;
+}
+.list-item p{
+    font-size: 14px;
+    color:gray;
+    margin-top: 8px;
+}
+.icon{
+    font-size: 35px;
+    cursor: pointer;
+}
+.done{
+    font-size: 25px;
+    margin-left: 10px;
+
+    color:cyan;
+
+}
+
+.todo{
+    margin-right: 20px;
+}
